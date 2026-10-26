@@ -15,5 +15,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <p align="center">
-  <img src="leetcode.svg" alt="LeetCode stats" width="500">
+  <img src="leetcode.svg" alt="LeetCode stats" width="100%">
 </p>
