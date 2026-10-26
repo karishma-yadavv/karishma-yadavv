@@ -1,5 +1,5 @@
 const fs = require('fs');
-const USER = 'kittu_on_hunt';
+const USER = 'karishma_yd_0805';
 
 (async () => {
   const res = await fetch(`https://alfa-leetcode-api.onrender.com/${USER}/solved`);
