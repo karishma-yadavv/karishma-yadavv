@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200">
+  <style>
+    .bg   { fill:#262626; }
+    .label{ fill:#aaa; font:600 13px system-ui,sans-serif; }
+
+    /* big number fades up */
+    .big  { fill:#ffa116; font:700 44px system-ui,sans-serif;
+            opacity:0; animation:up .8s ease .2s forwards; }
+
+    /* ring */
+    .track{ fill:none; stroke:#3a3a3a; stroke-width:8; }
+    .ring { fill:none; stroke:#ffa116; stroke-width:8; stroke-linecap:round;
+            stroke-dasharray:251; stroke-dashoffset:251;
+            transform-box:fill-box; transform-origin:center; transform:rotate(-90deg);
+            animation:fill 1.4s cubic-bezier(.22,1,.36,1) .3s forwards; }
+
+    /* streak glow */
+    .flame{ font:700 28px system-ui,sans-serif; fill:#ffa116;
+            animation:glow 1.6s ease-in-out infinite alternate; }
+
+    @keyframes up   { from{opacity:0; transform:translateY(12px)} to{opacity:1; transform:none} }
+    @keyframes fill { to{ stroke-dashoffset:95; } }   /* 251 * (1 - 0.62) */
+    @keyframes glow { from{filter:drop-shadow(0 0 2px #ffa116)} to{filter:drop-shadow(0 0 10px #ff5e00)} }
+  </style>
+
+  <rect class="bg" width="500" height="200" rx="14"/>
+
+  <text class="label" x="30" y="40">TOTAL SOLVED</text>
+  <text class="big"   x="30" y="95">412</text>
+
+  <text class="label" x="30" y="140">STREAK</text>
+  <text class="flame" x="30" y="170">27 🔥</text>
+
+  <circle class="track" cx="400" cy="100" r="40"/>
+  <circle class="ring"  cx="400" cy="100" r="40"/>
+  <text class="label" x="400" y="105" text-anchor="middle">62%</text>
+</svg>
