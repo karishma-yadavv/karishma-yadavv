@@ -59,7 +59,7 @@
   <rect x="1.5" y="1.5" width="897" height="542" rx="24.5" pathLength="1000" class="run"/>
 
   <text x="36" y="54" class="title fade" style="animation-delay:.1s">LeetCode Progress</text>
-  <text x="36" y="76" class="sub fade" style="animation-delay:.2s">@karishma_yd_0805  ·  60 solved of 4101</text>
+  <text x="36" y="76" class="sub fade" style="animation-delay:.2s">@karishma_yd_0805  ·  60 solved of 4105</text>
 
   <circle cx="170" cy="235" r="124" class="spin"/>
   <circle cx="170" cy="235" r="124" class="spin2"/>
@@ -81,14 +81,14 @@
     <g class="fade" style="animation-delay:0.8s">
       <circle cx="352" cy="210" r="6" fill="url(#g1)"/>
       <text x="368" y="216" class="lab">Medium</text>
-      <text x="640" y="216" text-anchor="end" class="num">23<tspan class="dim"> / 2139</tspan></text>
+      <text x="640" y="216" text-anchor="end" class="num">23<tspan class="dim"> / 2142</tspan></text>
       <rect x="350" y="230" width="290" height="8" rx="4" fill="#232a36"/>
       <rect x="350" y="230" width="66.7" height="8" rx="4" fill="url(#g1)" class="grow" style="animation-delay:0.95s;filter:drop-shadow(0 0 4px #ffb000)"/>
     </g>
     <g class="fade" style="animation-delay:1s">
       <circle cx="352" cy="276" r="6" fill="url(#g2)"/>
       <text x="368" y="282" class="lab">Hard</text>
-      <text x="640" y="282" text-anchor="end" class="num">0<tspan class="dim"> / 987</tspan></text>
+      <text x="640" y="282" text-anchor="end" class="num">0<tspan class="dim"> / 988</tspan></text>
       <rect x="350" y="296" width="290" height="8" rx="4" fill="#232a36"/>
       <rect x="350" y="296" width="0" height="8" rx="4" fill="url(#g2)" class="grow" style="animation-delay:1.2s;filter:drop-shadow(0 0 4px #ff3d6e)"/>
     </g>
